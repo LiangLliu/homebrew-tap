@@ -1,31 +1,31 @@
 class PasswordCracking < Formula
   desc "High-performance ZIP, PDF and Office password cracker"
   homepage "https://github.com/LiangLliu/password-cracking"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/LiangLliu/password-cracking/releases/download/v0.2.0/password-cracking-macos-arm64.tar.gz"
-      sha256 "384510796b13c0b4efade3c503ce8ad2ab13d84186c31449bbdbfe250e2fa2f7"
+      url "https://github.com/LiangLliu/password-cracking/releases/download/v0.2.1/password-cracking-macos-arm64.tar.gz"
+      sha256 "90363100d8e28659fabb6a0db723a1b80d7b395189fcddbf864164f13d4ee3e5"
     end
 
     on_intel do
-      url "https://github.com/LiangLliu/password-cracking/releases/download/v0.2.0/password-cracking-macos-amd64.tar.gz"
-      sha256 "f45a32a77abad9a6e295e26ea87eae413b98d65486abfaa45e634b76e5ea2d02"
+      url "https://github.com/LiangLliu/password-cracking/releases/download/v0.2.1/password-cracking-macos-amd64.tar.gz"
+      sha256 "0d4f6215d8942ae367f4c737a738aab228e740f9cc51c7015dfd53e1eb62ecc3"
     end
   end
 
   on_linux do
     # Static musl builds run on any distribution, independent of glibc.
     on_arm do
-      url "https://github.com/LiangLliu/password-cracking/releases/download/v0.2.0/password-cracking-linux-arm64-musl.tar.gz"
-      sha256 "c09ceb61f58da009e5148821e569940e3ea252dff90cebf67f7761939754b9b5"
+      url "https://github.com/LiangLliu/password-cracking/releases/download/v0.2.1/password-cracking-linux-arm64-musl.tar.gz"
+      sha256 "b37071c4b3f3de4ae5c94d373de4af9a35faa71e2aa501a4fb9fbfe4f3f157cc"
     end
 
     on_intel do
-      url "https://github.com/LiangLliu/password-cracking/releases/download/v0.2.0/password-cracking-linux-amd64-musl.tar.gz"
-      sha256 "64ac26fd0685117f0c7a3bb48bd262e508e20de32f61de5c2f45d95670bafe21"
+      url "https://github.com/LiangLliu/password-cracking/releases/download/v0.2.1/password-cracking-linux-amd64-musl.tar.gz"
+      sha256 "9951337f6c71fe91cb1eaafa733c486387a59adbe350865e9e905e1639c7cdf2"
     end
   end
 
