@@ -7,12 +7,12 @@ class PasswordCracking < Formula
   on_macos do
     on_arm do
       url "https://github.com/LiangLliu/password-cracking/releases/download/v0.2.0/password-cracking-macos-arm64.tar.gz"
-      sha256 "a59353ade448f8f8fb2aa84f0b869259c99dcc03bdd7ebf5fdc32090da224e11"
+      sha256 "4aa10eceb2c46f7bda93cc4922fd0e5c3fb5944d80abe48d10a2022aff3682bd"
     end
 
     on_intel do
       url "https://github.com/LiangLliu/password-cracking/releases/download/v0.2.0/password-cracking-macos-amd64.tar.gz"
-      sha256 "37f7bb9856764e12b15615536c04b0bb924fee23a1c5b8f9f21502a495f0f90b"
+      sha256 "45fc5e675b7854aa767cdf8ccb724fcf521d97ef23f2ff34ae65eaa17844e446"
     end
   end
 
@@ -20,12 +20,12 @@ class PasswordCracking < Formula
     # Static musl builds run on any distribution, independent of glibc.
     on_arm do
       url "https://github.com/LiangLliu/password-cracking/releases/download/v0.2.0/password-cracking-linux-arm64-musl.tar.gz"
-      sha256 "68e93c195c469006fa0103778b944542cb6e0743b6c51407e57cd27535308483"
+      sha256 "e5a2312686d1289910a5551773a16a78b1b380584378d67458e3133ef1e3b31a"
     end
 
     on_intel do
       url "https://github.com/LiangLliu/password-cracking/releases/download/v0.2.0/password-cracking-linux-amd64-musl.tar.gz"
-      sha256 "de3b10f34b72528b26495479e581b097cd0a90b456cd65150dcb3a076dab1bc3"
+      sha256 "8ff42467e8fbaa7e46be0b0103d9876601a306f5738caf98737273af91d03a10"
     end
   end
 
